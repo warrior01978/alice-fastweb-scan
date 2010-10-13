@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+    	<ImageView android:layout_gravity="center_horizontal" android:id="@+id/CryptIcon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:id="@+id/Crypt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@+id/Essid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textStyle="italic" android:gravity="center_horizontal" android:id="@+id/Bssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/SignalIcon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:gravity="center_horizontal" android:id="@+id/Level" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
